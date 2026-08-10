@@ -5,9 +5,9 @@ public class ComplaintSystem {
 
     // Database Connection
     public static Connection getConnection() throws Exception {
-        String url = "jdbc:mysql://localhost:3306/management_system";
+        String url = "jdbc:mysql://localhost:3306/Complaint_system";
         String user = "root";
-        String password = "your_password"; // replace with your MySQL password
+        String password = "Sanandh@123"; // replace with your MySQL password
         Class.forName("com.mysql.cj.jdbc.Driver");
         return DriverManager.getConnection(url, user, password);
     }
